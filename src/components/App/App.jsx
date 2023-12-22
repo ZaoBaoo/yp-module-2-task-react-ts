@@ -2,12 +2,12 @@ import "./App.scss";
 import React from "react";
 
 // Components
-import { Todos } from "../Todos/Todos";
+import { Counter } from "../Counter/Counter";
 
 function App() {
   return (
     <div className="app">
-      <Todos />
+      <Counter />
     </div>
   );
 }
